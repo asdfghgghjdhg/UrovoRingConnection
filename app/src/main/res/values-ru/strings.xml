@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Urovo Ring Connection</string>
+
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="no_bluetooth_adapter_title">Bluetooth не поддерживается</string>
+    <string name="no_bluetooth_adapter_summary">Устройство не имеет Bluetooth-адаптера или Bluetooth не поддерживается. Вы не сможете работать со сканером-кольцом Urovo.</string>
+
+    <string name="bluetooth_off_title">Bluetooth выключен</string>
+    <string name="bluetooth_off_summary">Bluetooth выключен. Включите Bluetooth на устройстве для настройки подключения.</string>
+
+    <!-- Preference Titles -->
+    <string name="connection_header">Подключение</string>
+    <string name="service_settings_header">Cервис</string>
+    <string name="barcode_transfer_header">Обработка штрих-кодов</string>
+
+    <!-- Connection Preferences -->
+    <string name="bluetooth_on_title">Поддерживать Bluetooth включенным</string>
+    <string name="bluetooth_on_summary">Автоматически включать Bluetooth для связи со сканером-кольцом Urovo.</string>
+    <string name="connect_to_device_title">Подключаться к</string>
+    <string name="connect_to_device_summary">Выберите сканер-кольцо Urovo для связи из связанных устройств Bluetooth.</string>
+
+    <!-- Service Preferences -->
+    <string name="service_boot_start_title">Запускать при включении</string>
+    <string name="service_boot_start_summary">Автоматически запускать сервис при включении устройства.</string>
+    <string name="service_app_start_title">Запускать из приложения</string>
+    <string name="service_app_start_summary">Автоматически запусать сервис при запуске приложения.</string>
+    <string name="service_management_title">Управление сервисом</string>
+    <string name="button_start_service">Запустить</string>
+    <string name="button_stop_service">Остановить</string>
+
+    <!-- Barcode Preferences -->
+    <string name="broadcast_messages_title">Широковещательные сообщения</string>
+    <string name="broadcast_messages_summary">Использовать широковещательные сообщения для отправки штрих-кода другим приложениям.</string>
+    <string name="intent_action_title">Действие</string>
+    <string name="intent_action_summary">Строка, идентифицирующая широковещательное сообщение со штрих-кодом.</string>
+    <string name="intent_data_title">Данные</string>
+    <string name="intent_data_summary">Строка, идентифицирующая поле данных штрих-кода в широковещательном сообщении.</string>
+    <string name="clipboard_paste_title">Буфер обмена</string>
+    <string name="clipboard_paste_summary">Помещать отсканированный штрих-код в буфер обмена.</string>
+
+    <!-- Connection Service -->
+    <string name="service_running_title">Служба запущена</string>
+    <string name="service_running_descrition">Служба успешно запущена</string>
+    <string name="service_bluetooth_disabled_title">Bluetooth недоступен</string>
+    <string name="service_bluetooth_disabled_description">Устройство не имеет Bluetooth-адаптера или Bluetooth недоступен. Это устройство не сможет работать со сканером-кольцом Urovo.</string>
+    <string name="service_bluetooth_off_title">Bluetooth выключен</string>
+    <string name="service_bluetooth_off_description">Bluetooth-адаптер выключен. Включите Bluetooth на устройстве или установите "Поддерживать Bluetooth включенным" в настройках.</string>
+    <string name="service_device_not_selected_title">Сканер-кольцо Urovo не выбрано</string>
+    <string name="service_device_not_selected_description">Не выбрано сканер-кольцо Urovo для подключения. Выберите сканер-кольцо Urovo в настройках.</string>
+    <string name="service_disconnected_title">Сканер-кольцо Urovo не подключено</string>
+    <string name="service_disconnected_description">Сканер-кольцо Urovo %s не подключено, ожидание подключения…</string>
+    <string name="service_connected_title">Связь установлена</string>
+    <string name="service_connected_description">Установлена связь со сканером-кольцом Urovo %s</string>
+    <string name="service_connected_last_barcode">%s</string>
+</resources>

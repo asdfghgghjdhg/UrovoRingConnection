@@ -1,0 +1,79 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="@string/no_bluetooth_adapter_key"
+        android:selectAllOnFocus="true"
+        android:selectable="false"
+        android:singleLine="true"
+        android:summary="@string/no_bluetooth_adapter_summary"
+        android:title="@string/no_bluetooth_adapter_title" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="@string/bluetooth_off_key"
+        android:selectAllOnFocus="true"
+        android:selectable="false"
+        android:singleLine="true"
+        android:summary="@string/bluetooth_off_summary"
+        android:title="@string/bluetooth_off_title" />
+    <PreferenceCategory android:title="@string/connection_header">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/bluetooth_on_key"
+            android:summary="@string/bluetooth_on_summary"
+            android:title="@string/bluetooth_on_title" />
+        <com.google.asdfghgghjdhg.urovoringconnection.CustomListPreference
+            android:entries="@array/reply_entries"
+            android:entryValues="@array/reply_values"
+            android:key="@string/connect_to_device_key"
+            android:selectable="true"
+            android:summary="@string/connect_to_device_summary"
+            android:title="@string/connect_to_device_title"
+            app:selectable="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/service_settings_header">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/service_boot_start_key"
+            android:summary="@string/service_boot_start_summary"
+            android:title="@string/service_boot_start_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/service_app_start_key"
+            android:summary="@string/service_app_start_summary"
+            android:title="@string/service_app_start_title" />
+        <com.google.asdfghgghjdhg.urovoringconnection.ServiceManagementPreference
+            android:key="@string/service_management_key"
+            android:selectable="true"
+            android:title="@string/service_management_title"
+            app:selectable="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/barcode_transfer_header">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/broadcast_messages_key"
+            android:summary="@string/broadcast_messages_summary"
+            android:title="@string/broadcast_messages_title" />
+        <EditTextPreference
+            android:key="@string/intent_action_key"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/intent_action_summary"
+            android:title="@string/intent_action_title" />
+        <EditTextPreference
+            android:key="@string/intent_barcode_data_key"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/intent_data_summary"
+            android:title="@string/intent_data_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/clipboard_paste_key"
+            android:summary="@string/clipboard_paste_summary"
+            android:title="@string/clipboard_paste_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
